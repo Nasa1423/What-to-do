@@ -2,7 +2,11 @@
     background-color: #000000;
 }
 h1{
-    font-family:sans-serif
-    font-size:500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-size:100px;
+    font-weight:bold;
     color:white;
+}
+a,button{
+
 }
