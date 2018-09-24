@@ -36,3 +36,16 @@ h2{
     font-weight:bold;
 
 }
+p {
+    font-family: serif;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+input {
+    font-family: serif;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    background-color:black;
+}
