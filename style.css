@@ -5,13 +5,13 @@ h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 100px;
     font-weight:bold;
-    color:red;
+    color:white;
 }
 a.button {
     font-size: large;
     font-weight: bold;
     font-family: Impact;
-    color: red;
+    color: white;
     text-decoration: none;
     padding: .8em 1em calc(.8em + 3px);
     border-radius: 5px;
@@ -44,8 +44,8 @@ p {
 }
 input {
     font-family: serif;
-    color: red;
+    color: white;
     font-size: medium;
     font-weight: bold;
-    background-color:blue;
+    background-color:black;
 }
