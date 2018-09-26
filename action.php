@@ -3,16 +3,16 @@ if(isset($_POST['email']) && isset($_POST['pass']))
 {
     $email = htmlentities($_POST['email']);
     $pass = htmlentities($_POST['pass']);
-    $output ="
+    echo "
     <html>
     <head>
     <title>Анкетные данные</title>
     </head>
     <body>
-    Ваше мыло: $email<br />
-    Пароль: Не скажу)))"
-	$output.="</body></html>";
-    echo $output;
+    <p>Ваше мыло:$email</p>
+    <p>Пароль: Не скажу)))</p>
+	</body>
+	</html>"
 }
 else
 {   
