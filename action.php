@@ -14,9 +14,11 @@ if(isset($_POST['email']) && isset($_POST['pass']))
     <p>Пароль: Не скажу)))</p>
 	</body>
 	</html>";
+	end()
 }
 else
 {   
     echo "Введенные данные некорректны";
+	end()
 }
 ?>

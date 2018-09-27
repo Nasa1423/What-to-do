@@ -13,7 +13,12 @@
         </h1>
     </p>
     <form action="action.php" method="post">
-        <p align="center">Email: <input type="text" name="email"/></p>
+        <p align="center">
+            Email: <input type="text" name="email" /><?php
+            $email = $_POST['email'];
+            echo $email;
+            ?>
+        </p>
         <p align="center">Пароль <input type="text" name="pass"/></p>
         <p align="center"><input type="submit" name="sub" value="Отправить" align="center" /></p>
     </form>
