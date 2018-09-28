@@ -12,8 +12,18 @@
             Регистрация:
         </h1>
     </p>
+<<<<<<< HEAD
     <form action="action.php" method="get">
         <p align="center">Email: <input type="text" name="email"/></p>
+=======
+    <form action="action.php" method="post">
+        <p align="center">
+            Email: <input type="text" name="email" /><?php
+            $email = $_POST['email'];
+            echo $email;
+            ?>
+        </p>
+>>>>>>> 82bca652242867dd91364c5ee705f38efe87c332
         <p align="center">Пароль <input type="text" name="pass"/></p>
         <p align="center"><input type="submit" name="sub" value="Отправить" align="center" /></p>
     </form>
