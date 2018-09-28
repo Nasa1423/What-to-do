@@ -1,4 +1,5 @@
-﻿<?php
+﻿<meta charset="utf-8">
+<?php
 if(isset($_POST['email']) && isset($_POST['pass'])) 
 {
     $email = ($_GET['email']);
