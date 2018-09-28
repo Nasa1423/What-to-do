@@ -9,7 +9,7 @@ if(isset($_POST['email']) && isset($_POST['pass']))
     <title>Анкетные данные</title>
     </head>
     <body>
-    <p>Ваше мыло:<?php $email = ($_GET['email']); echo $email;?></p>
+    <p>Ваше мыло:<?php $email = "hea"; print htmlentities($email);?></p>
     <p>Пароль: Не скажу)))</p>
 	<?php
 }
