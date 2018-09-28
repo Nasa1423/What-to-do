@@ -1,22 +1,22 @@
 ﻿<?php
 if(isset($_POST['email']) && isset($_POST['pass'])) 
 {
-    $email = htmlentities($_POST['email']);
-    $pass = htmlentities($_POST['pass']);
-	require_once("register.html")
-    echo "
+    $email = ($_GET['email']);
+    $pass = ($_GET['pass']);?>
     <html>
     <head>
     <title>Анкетные данные</title>
     </head>
     <body>
-    <p>Ваше мыло:<span>$email</span></p>
+    <p>Ваше мыло:<?php $email = ($_GET['email']); echo $email;?></p>
     <p>Пароль: Не скажу)))</p>
 	</body>
-	</html>";
+	</html>
+<?php
 }
 else
 {   
     echo "Введенные данные некорректны";
+	exit();
 }
 ?>
